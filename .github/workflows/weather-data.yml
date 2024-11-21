@@ -13,16 +13,23 @@ jobs:
       contents: write  # This gives permission to commit and push changes to the repository
 
     steps:
-    # Step 1: Checkout the repository to get access to the scripts and files
+
+    # Step 1: Use Node.js 20
+    - name: Set up Node.js 20
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+
+    # Step 2: Checkout the repository to get access to the scripts and files
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    # Step 2: Run the weather.sh script (no need to install wget if it's already installed)
+    # Step 3: Run the weather.sh script (no need to install wget if it's already installed)
     - name: Run weather.sh script
       run: |
         chmod +x weather.sh  # Make sure the script is executable
         ./weather.sh         # Run the script to gather weather data
-    # Step 3: Commit and push changes
+    # Step 4: Commit and push changes
     - name: Commit and push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Explicitly passing the token
