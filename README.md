@@ -104,7 +104,7 @@ If you want to be sure that you have the right programming environment for this 
 
 Notice: Make sure you are in the correct patch for the file you are trying to execute. Otherwise, you may encounter an error.
 
-7. Open the ... in VS Code.
+7. Open the [weather.ipynb](https://github.com/TomUszyn/computer-infrastructure/blob/83a3b08d953480f6a6e0b0a56d4d7ecdfac3c3a4/weather.ipynb) in VS Code.
 
 
 Now the proper programming environment is set up and repository can be explored.
