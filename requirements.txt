@@ -1,1 +1,4 @@
-pandas
+# This file contains the dependencies for my project
+
+# Pandas library (2.2.2 or higher)
+pandas>=2.2.2 # For data manipulation
