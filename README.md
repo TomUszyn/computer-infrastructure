@@ -30,11 +30,14 @@ This repository contains the assessment components for the Computer Infrastructu
 
 This repository includes the following:
 
-- `data/`: Directory containing subdirectories `timestamps/` and `weather/` for managing timestamp and weather data.
-- `weather.sh`: A Bash script to automate weather data downloads.
-- `weather.ipynb`: A Jupyter Notebook serving as both a report on key realizations and a tool for data analysis.
-- `requirements.txt`: Dependencies needed to run the Jupyter Notebook.
 - `.github/workflows/`: Directory containing GitHub Actions workflow files for automation.
+- `data/`: Directory containing subdirectories `timestamps/` and `weather/` for managing timestamp and weather data.
+- `img/`: Directory containing image files used in the repository.
+- `.gitignore`: A file is used to specify which files and directories should be excluded from version control.
+- `README.md`: A file provides an overview of the project, its purpose, and instructions for setup and usage.
+- `requirements.txt`: Dependencies needed to run the Jupyter Notebook.
+- `weather.ipynb`: A Jupyter Notebook serving as both a report on key realizations and a tool for data analysis.
+- `weather.sh`: A Bash script to automate weather data downloads.
 
 ---
 
